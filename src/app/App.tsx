@@ -36,10 +36,11 @@ type ChartRecord = {
 };
 
 const DEPT_COLORS: Record<string, { bg: string; text: string }> = {
-  Executive: { bg: "#0ea5e9", text: "#ffffff" },
-  "R&D":     { bg: "#818cf8", text: "#ffffff" },
-  Revenue:   { bg: "#34d399", text: "#052e16" },
-  Marketing: { bg: "#fbbf24", text: "#1c1100" },
+  "Sales Leader":          { bg: "#0ea5e9", text: "#ffffff" },
+  "Solutions Architect":   { bg: "#818cf8", text: "#ffffff" },
+  "Account Team":          { bg: "#34d399", text: "#052e16" },
+  Specialist:              { bg: "#fbbf24", text: "#1c1100" },
+  "Partner Sales Manager": { bg: "#f472b6", text: "#ffffff" },
 };
 
 const DEFAULT_ORG: Person = {
