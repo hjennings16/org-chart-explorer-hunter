@@ -149,8 +149,7 @@ function toInitials(name: string): string {
 }
 
 
-const DEPARTMENTS = ["R&D", "Revenue", "Marketing"] as const;
-
+const DEPARTMENTS = ["Sales Leader", "Solutions Architect", "Account Team", "Specialist", "Partner Sales Manager"] as const;
 // ── Edit Drawer ────────────────────────────────────────────────────────────────
 
 function EditDrawer({
@@ -172,8 +171,7 @@ function EditDrawer({
   const [nextStep, setNextStep] = useState(node.nextStep ?? "");
   const [linkedin, setLinkedin] = useState(node.linkedin ?? "");
   const nameRef = useRef<HTMLInputElement>(null);
-  const color = DEPT_COLORS[dept] ?? DEPT_COLORS.Executive;
-
+const color = DEPT_COLORS[dept] ?? DEPT_COLORS["Sales Leader"];
   useEffect(() => {
     setName(node.name);
     setTitle(node.title);
