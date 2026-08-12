@@ -47,13 +47,13 @@ const DEFAULT_ORG: Person = {
   id: "ceo",
   name: "Sarah Chen",
   title: "Chief Executive Officer",
-  dept: "Executive",
+  dept: "Sales Leader",
   initials: "SC",
   reports: 340,
   children: [
-    { id: "cto", name: "Marcus Webb",   title: "Head of R&D",              dept: "R&D",       initials: "MW", reports: 140 },
-    { id: "cro", name: "Carlos Rivera", title: "Chief Revenue Officer",    dept: "Revenue",   initials: "CR", reports: 114 },
-    { id: "cmo", name: "Oliver Grant",  title: "Chief Marketing Officer",  dept: "Marketing", initials: "OG", reports: 86 },
+    { id: "cto", name: "Marcus Webb",   title: "Head of R&D",              dept: "Solutions Architect",       initials: "MW", reports: 140 },
+    { id: "cro", name: "Carlos Rivera", title: "Chief Revenue Officer",    dept: "Account Team",   initials: "CR", reports: 114 },
+    { id: "cmo", name: "Oliver Grant",  title: "Chief Marketing Officer",  dept: "Specialist", initials: "OG", reports: 86 },
   ],
 };
 
