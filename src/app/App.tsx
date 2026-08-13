@@ -41,6 +41,7 @@ const DEPT_COLORS: Record<string, { bg: string; text: string }> = {
   "Account Team":          { bg: "#34d399", text: "#052e16" },
   Specialist:              { bg: "#fbbf24", text: "#1c1100" },
   "Partner Sales Manager": { bg: "#f472b6", text: "#ffffff" },
+  Vertical: { bg: "#a78bfa", text: "#ffffff" },
 };
 
 const DEFAULT_ORG: Person = {
@@ -149,7 +150,7 @@ function toInitials(name: string): string {
 }
 
 
-const DEPARTMENTS = ["Sales Leader", "Solutions Architect", "Account Team", "Specialist", "Partner Sales Manager"] as const;
+const DEPARTMENTS = ["Sales Leader", "Solutions Architect", "Account Team", "Specialist", "Partner Sales Manager", "Vertical"] as const;
 // ── Edit Drawer ────────────────────────────────────────────────────────────────
 
 function EditDrawer({
